@@ -19,8 +19,10 @@ analizar un conjunto de datos histórico del Titanic.
 
 ### 2. Configuración del entorno virtual
 Abrir el terminal de la mac y activar el entorno:
-  ´´´bash 
+  ´´´bash
+  
   conda activate bigdata_env
+  cd ~/proyecto_bigdata
 
 ### 3. Ejecución del procesamiento Batch
   bash

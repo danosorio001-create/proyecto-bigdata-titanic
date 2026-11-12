@@ -20,7 +20,6 @@ analizar un conjunto de datos histórico del Titanic.
 ### 2. Configuración del entorno virtual
 Abrir el terminal de la mac y activar el entorno:
   ´´´bash
-  
   conda activate bigdata_env
   cd ~/proyecto_bigdata
 
@@ -32,7 +31,12 @@ Abrir el terminal de la mac y activar el entorno:
   bash
   python streaming_processing.py
 
-### 5. Simular la llegada de un lote de datos en vivo
+### 5. Abrir una Segunda Terminal
+  ´´´bash
+  conda activate bigdata_env
+  cd ~/proyecto_bigdata
+
+### 6. Simular la llegada de un lote de datos en vivo en la segunda terminal 
   bash
   head -n 15 datos_prueba.csv > stream_input/lote1.csv
 
